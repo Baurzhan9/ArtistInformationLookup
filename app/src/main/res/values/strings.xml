@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageView</string>
+    <string name="likes_fmt">Likes: %1$d</string>
+    <string name="tags_fmt">Tags: %1$s</string>
+</resources>
