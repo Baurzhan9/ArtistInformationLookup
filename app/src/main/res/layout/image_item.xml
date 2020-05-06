@@ -28,7 +28,7 @@
             android:textSize="17sp"
             android:textStyle="bold"
             android:textColor="@android:color/white"
-            tools:text="Tags: 123456"/>
+            tools:text="NAME"/>
 
         <TextView
             android:id="@+id/downloads_view"
@@ -37,7 +37,32 @@
             android:layout_marginTop="8dp"
             android:textSize="15sp"
             android:textColor="@android:color/white"
-            tools:text="Likes: 400"/>
+            tools:text="BORN YEAR"/>
+        <TextView
+            android:id="@+id/genre_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            tools:text="GENRE"/>
+        <TextView
+            android:id="@+id/website_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            tools:text="WEBSITE"/>
+        <TextView
+            android:id="@+id/biography_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            tools:text="BIOGRAPHY"/>
+
 
     </LinearLayout>
 

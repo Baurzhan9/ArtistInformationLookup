@@ -1,11 +1,11 @@
-package com.example.pixabayapp
+package com.example.pixabayapp.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object Api {
 
-    private const val ENDPOINT = "https://pixabay.com/api/"
+    private const val ENDPOINT = "https://theaudiodb.com/"
 
     val retrofit =
         Retrofit.Builder()
@@ -13,5 +13,6 @@ object Api {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-    fun getImageApi() = retrofit.create(PixabayGet::class.java)
+    fun getImageApi() = retrofit.create(
+        PixabayGet::class.java)
 }
